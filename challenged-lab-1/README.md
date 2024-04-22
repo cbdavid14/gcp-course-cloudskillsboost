@@ -1,4 +1,5 @@
-# Task 1. Create a project jumphost instance
+# Implement Load Balancing on Compute Engine: Challenge Lab
+## Task 1. Create a project jumphost instance
 
 You will use this instance to perform maintenance for the project.
 
@@ -10,7 +11,7 @@ Requirements:
 - Use the default image type (Debian Linux).
 
 
-# Task 2. Set up an HTTP load balancer
+## Task 2. Set up an HTTP load balancer
 
 You will serve the site via nginx web servers, but you want to ensure that the environment is fault-tolerant. Create an HTTP load balancer with a managed instance group of 2 nginx web servers. Use the following code to configure the web servers; the team will replace this with their own configuration later.
 
